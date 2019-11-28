@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/blanco"
+android:padding="@dimen/dimen_layout">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imagePlaySongArtist"
+        android:background="@drawable/ic_play_arrow_24dp"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ArtistSong1"
+    android:id="@+id/textViewSongName" android:layout_marginLeft="@dimen/dimen_layout"
+    android:textColor="@color/negro"
+    android:textSize="@dimen/dimen_font_cell"
+    android:layout_marginRight="@dimen/dimen_layout"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageDeezer"
+        android:background="@drawable/ic_deezer"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

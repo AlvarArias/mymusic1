@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blanco"
+    android:orientation="vertical"
+    tools:context="com.audiomapp.mymusic.ShowArtistActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:id="@+id/imageViewArstisSelected"
+            android:background="@color/blanco"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textViewArtistClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Name"
+            android:textColor="@color/negro"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/dimen_font"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/volverMain"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_keyboard_return_24dp"
+        android:text=""
+        android:textColor="@color/negro"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewArtistTemas"
+        android:background="@color/blanco"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
